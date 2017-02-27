@@ -37,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="5.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="5.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/5/5.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
@@ -77,11 +77,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="6.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="6.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/6/6.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="36" column="3" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="36" selection-end-column="3" />
+            <state relative-caret-position="405">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -348,12 +348,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1487612618417</updated>
-      <workItem from="1487612619718" duration="54842000" />
+      <workItem from="1487612619718" duration="54978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54842000" />
+    <option name="totallyTimeSpent" value="54978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -568,14 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6/6.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="36" column="3" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="36" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/Core.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -620,6 +612,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6/6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding />
         </state>
       </provider>
