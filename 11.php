@@ -18,45 +18,32 @@
 // А король-то — голый. А ларчик просто открывался.А там хоть трава не расти.';</p>
 
 
-
-
-//setlocale(LC_ALL, "ru_RU.utf-8");
-//var_dump(setlocale(LC_ALL, "ru_RU.utf-8"));
-
-function ucfirst_utf8($str)
-{
-    return mb_substr(mb_strtoupper($str, 'utf-8'), 0, 1, 'utf-8') . mb_substr($str, 1, mb_strlen($str)-1, 'utf-8');
-}
-
-
-$c = 'ыв вфывыфв';
-echo ucfirst_utf8($c);
-echo '<br>';
-
-
-
-
 function generateNewString($a) {
 
     $arr = explode('.', $a);
-
     $new_arr = array();
 
-
     foreach ($arr as $e) {
+        if (strpos($e, ' ')) {
+            $e = mb_strtoupper(mb_substr($e, 0, 1)) . mb_substr($e, 1);
+        } else {
+            $e = mb_strtoupper(mb_substr($e, 0, 2)) . mb_substr($e, 2);
+        }
+
+        /*
         for ($i = 0; $i < mb_strlen($e,'UTF-8'); $i++) {
             if ($e[$i] !== " ") {
-                //echo $e[$i] . '<br>';
                 $e[$i] = ucfirst_utf8($e[$i]);
-
                 break;
             }
         }
+        */
 
         $new_arr[] = $e;
 
     }
 
+    /*
     echo '<pre>';
     print_r($arr);
     echo '</pre>';
@@ -66,8 +53,7 @@ function generateNewString($a) {
     echo '<pre>';
     print_r($new_arr);
     echo '</pre>';
-
-
+    */
 
     $result = implode('.', $new_arr);
 
